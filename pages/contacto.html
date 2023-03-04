@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+    <title>Proyecto CoderHouse</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <a href="../index.html">
+                <img src="../assets/logo.png" alt="DjokovicLogo" class="nav__a--img">
+            </a>
+            <ul class="nav-ul">
+                <li class="nav__li">
+                    <a href="../index.html" class="nav__a--links">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav__li">
+                    <a href="./about.html" class="nav__a--links">
+                        About
+                    </a>
+                </li>
+
+                <li class="nav__li">
+                    <a href="./palmares.html" class="nav__a--links">
+                        Palmarés
+                    </a>
+                </li>
+
+                <li class="nav__li">
+                    <a href="./rivalidades.html" class="nav__a--links">
+                        Rivalidades
+                    </a>
+                </li>
+                
+                <li class="nav__li">
+                    <a href="#" class="nav__a--links active">
+                        Contacto
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="contacto__main--wrapper">
+        <section class="contacto__main--left">
+            <h1>¿Querés contarme tu experiencia en el sitio web?</h1>
+        </section>
+        <section class="contacto__main--right">
+            <p>
+                Siempre es positivo tener alguna clase de 
+                <span>feedback</span> 
+                con mis lectores, asi que me interesaría conocer tu opinión respecto del producto. 
+                Saber si te gustó, qué te gustó, si cambiarías el diseño/contenido del sitio, etc. <br> 
+                Desde ya, muchas gracias.
+            </p>
+            <form action="#">
+                <label for="fullname">Nombre y apellido</label>
+                <input type="text" id="fullname" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                
+                <label for="feedback">Feedback</label>
+                <textarea id="feedback" class="contacto__main--feedback"></textarea>
+                <button>
+                    Enviar
+                </button>
+            </form>
+        </section>
+    </main>
+        
+    <footer class="footer">
+        <p>Sitio web hecho por Bautista González Gastó</p>
+        <div class="footer-icons">
+            <a href="https://twitter.com/DjokerNole" target="_blank" class="footer__a--links">
+                <img src="../assets/twitter.png">
+            </a>
+            <a href="https://www.instagram.com/djokernole/" target="_blank" class="footer__a--links footer--midIcon">
+                <img src="../assets/instagram.png">
+            </a>
+            <a href="https://www.facebook.com/djokovicofficial" target="_blank" class="footer__a--links">
+                <img src="../assets/facebook.png">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

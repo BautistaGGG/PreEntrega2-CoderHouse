@@ -1,0 +1,5 @@
+hay que crear una RAMA APARTE de la MAIN
+
+responsive menor a 576px, osea MobileFirst
+
+usando Bootstrap

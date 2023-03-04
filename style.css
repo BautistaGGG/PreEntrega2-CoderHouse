@@ -1,0 +1,268 @@
+body{
+    background-color: rgb(42, 47, 88);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*
+    HEADER
+*/
+
+header{
+    background-color: rgb(50, 56, 107);
+}
+
+.nav{
+    padding: 0px 24px;
+}
+
+.nav__a--img{
+    height: 100px;
+    cursor: pointer;
+    padding: 8px 0;
+}
+
+.nav__li{
+    list-style: none;
+}
+
+.nav__a--links,
+.active{
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.active{
+    border-bottom: 1px solid red;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    padding: 0px 5px;
+}
+
+
+/*
+    INDEX
+*/
+
+/*----------------------------------------------------------
+    MAIN
+*****/
+
+.section{
+    padding: 0 24px;
+}
+
+.section__article--text{
+    background-color: rgb(80, 153, 255);
+    text-align: left;
+    padding: 32px;
+    margin: 0;
+}
+
+.section__article--text span{
+    color: red;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.section__article--imgs img{
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+}
+
+/*-------------------------------------------------------------
+    ABOUT    
+*/    
+.section--about{
+    margin-top: 20px;
+}
+
+.section--about__article--container{
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.section--about__article-title{
+    font-size: 29px;
+    margin: 0;
+}
+
+
+.section--about__aside img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.section__about--iframes{
+    padding: 18px 0px;
+}
+
+.section__about--iframes article{
+    margin: 0 auto;
+}
+    /*
+    PALMARES
+*/
+
+.palmares__main{
+    margin-top: 20px;
+    padding: 0 24px;
+}
+
+.palmares__main__section{
+    padding: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.palmares__main--title{
+    font-size: 32px;
+}
+
+.palmares__main--p span{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.palmares__img{
+    width: 300px;
+    height: 300px;
+}
+
+/*
+    RIVALIDADES
+*/
+
+.section--rivalidades{
+    margin-top: 20px;
+}
+
+.section--rivalidades__article--container{
+    padding: 48px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.section--rivalidades__article-title{
+    font-size: 29px;
+    margin: 16px 0;
+}
+
+.section--rivalidades__p{
+    text-align: start;
+}
+
+.rivalidades__img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+.rivalidades_a--link{
+    background-color: rgb(80, 153, 255);
+    color: white;
+    padding: 13px;
+    margin: 16px 0;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 32px;
+}
+
+/*
+    CONTACTO
+*/
+
+.contacto__main--wrapper{
+    padding: 0 24px;
+}
+
+
+.contacto__main--left{
+    background-image: url("./assets/djokovicContacto.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 0 32px;
+}
+
+.contacto__main--left h1{
+    font-size: 40px;
+}
+
+.contacto__main--wrapper p{
+    font-size: 24px;
+}
+
+.contacto__main--right span{
+    font-weight: bold;
+}
+
+.contacto__main--wrapper label{
+    cursor: pointer;
+}
+
+.contacto__main--wrapper input,
+.contacto__main--feedback{
+    color: black;
+    padding: 19px;
+    margin: 16px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+.contacto__main--feedback{
+    height:128px
+}
+
+.contacto__main--wrapper button{
+    background-color: rgb(80, 153, 255);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px 48px;
+    margin-top: 18px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*
+    FOOTER
+*/
+
+.footer{
+    background-color: rgb(50, 56, 107);
+    padding: 8px 24px;
+    margin-top: 24px;
+}
+
+.footer__a--links{
+    text-decoration: none;
+}
+
+.footer img{
+    height: 25px;
+    width: 25px;
+}
+
+.footer--midIcon{
+    margin: 0 10px;
+}
