@@ -266,8 +266,9 @@ ABOUT
         padding: 1.25em 0em 1.25em 0em;
         border-radius: 10px;
     }
-
+    
     .section__about--iframes article{
+        text-align: center;
         color: white;
         margin: 0 auto;
     }
