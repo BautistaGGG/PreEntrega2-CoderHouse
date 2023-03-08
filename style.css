@@ -1,8 +1,4 @@
-/*Modificacioens a estilos predeterminados de Bootstrap*/
-
-
-/*ESTILOS PERMANENTES*/
-
+/* ESTILOS PERMANENTES */
 body{
     margin: 0;
     padding: 0;
@@ -11,15 +7,11 @@ body{
     line-height: 1.6;
 }
 
-
-
 *{
     font-family: 'Montserrat', sans-serif;
 }
 
-    /**** 
-    HEADER
-    ****/
+/* HEADER */
 
 header{
     background-color: rgb(50, 56, 107);
@@ -104,7 +96,7 @@ li:last-child{
     padding: 0;
 }
 
-/*HOME*/
+/* HOME */
 
 .section__article--text{
     color: rgb(238, 228, 228);
@@ -116,7 +108,50 @@ li:last-child{
     font-size: 1.7em;
 }
 
-/*FOOTER*/
+/*RIVALIDADES*/
+
+.section--rivalidades__article-title{
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin: 1em 0;
+    z-index: 0;
+}
+
+.section--rivalidades__article-title::after{
+    position: absolute;
+    background-color:#e91e63;
+    content: "";
+    height: 5px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 2px;
+    z-index: -1;
+}
+
+.section--rivalidades__p{
+    max-width: 75ch;
+    line-height: 1.8;
+    margin: 1em 0;
+}
+
+.rivalidades_a--link{
+    display: inline-block;
+    background-color: rgb(80, 153, 255);
+    color: white;
+    padding: .8em;
+    width: 100%;
+    margin: 2em auto;
+    font-weight: bold;
+    border-radius: 2em;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* FOOTER */
 
 footer{
     display: flex;
@@ -145,31 +180,28 @@ footer img{
 }
 
 
-
 /*MIS Estilos*/
 
 @media (min-width: 576px) {
+
 /*HEADER*/
- nav{
-    padding: 0 1.5em;
- }
+    nav{
+        padding: 0 1.5em;
+    }
 
- ul{
-    display: block;
- }
+    ul{
+        display: block;
+    }
 
- .bi-list{
-    display: none;
- }
-/*-------------------------------------------------------------------------
-HOME 
-****/
+    .bi-list{
+        display: none;
+    }
+/* HOME */
     /*.section-index{
         display: grid;
         grid-template-columns: 1fr 75%;
         padding: 0 1.5em;
     }*/
-
 
     .section__article--text{
         background-color: rgb(80, 153, 255);
@@ -192,12 +224,7 @@ HOME
         border-radius: 50%;
     }
 
-
-
-/*-------------------------------------------------------------------------------
-ABOUT
-*****/
-
+/* ABOUT */
     .section--about{
         display: grid;
         margin-top: 20px;
@@ -274,10 +301,7 @@ ABOUT
     }
 
 
-/*----------------------------------------------------------------------------------------
-PALMARES
-*****/
-
+/* PALMARES */
     .palmares__main{
         display: grid;
         place-items: center;
@@ -329,8 +353,7 @@ PALMARES
         border-radius: 10px;
     }
 
-/*RIVALIDADES*/
-
+/* RIVALIDADES */
     .section--rivalidades{
         display: grid;
         grid-template-rows: repeat(3, 1fr);
@@ -354,24 +377,18 @@ PALMARES
     }
 
     .section--rivalidades__article-title::after{
-        position: absolute;
-        background-color:#e91e63;
-        content: "";
         height: 3px;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        margin-bottom: 10px;
-        z-index: -1;
+        margin-bottom: 5px;
     }
 
 
-    .section__rivalidades-wrapper{
+    /*.section__rivalidades-wrapper{
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-between;
         align-items: center;
         gap: 1.5em;
-    }
+    }*/
 
     .section--rivalidades__div{
         display: flex;
@@ -382,8 +399,8 @@ PALMARES
         background-color: transparent;
         color: white;
         max-width: 75ch;
+        margin: auto 0 auto auto;
         line-height: 1.8;
-        text-align: start;
     }
 
 
@@ -395,16 +412,14 @@ PALMARES
     }
 
     .rivalidades_a--link{
-        display: inline-block;
-        background-color: rgb(80, 153, 255);
-        color: white;
-        padding: .8em;
-        margin: 1em 0;
-        font-weight: bold;
-        border-radius: 2em;
-        text-decoration: none;
         align-self: center;
         transition: all 0.2s ease;
+        margin: 1em 0;
+        width: initial;
+    }
+
+    .rivalidades_a--link:hover{
+        color: white;
     }
 
     .rivalidades_a--link:active{
@@ -414,9 +429,7 @@ PALMARES
         box-shadow: 3px 2px 2px black;
     }
 
-/*----------------------------------------------------------------------------
-    CONTACTO
-    ****/
+/* CONTACTO */
     .contacto__main--wrapper{
         display: grid;
         grid-template-columns: 35% 1fr;
@@ -533,7 +546,7 @@ PALMARES
 
 /*MODIFICACIONES A ELEMENTOS DE BOOTSTRAP*/
 .offcanvas.offcanvas-top{
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(50, 56, 107);
     height: 100vh;
 }
 
